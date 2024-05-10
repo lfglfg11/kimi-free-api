@@ -11,7 +11,7 @@
 ![](https://img.shields.io/github/forks/llm-red-team/kimi-free-api.svg)
 ![](https://img.shields.io/docker/pulls/vinlic/kimi-free-api.svg)
 
-支持高速流式输出、支持多轮对话、支持联网搜索、支持智能体对话、支持长文档解读、支持图像解析，零配置部署，多路token支持，自动清理会话痕迹。
+支持高速流式输出、支持多轮对话、支持联网搜索、支持智能体对话、支持长文档解读、支持图像OCR，零配置部署，多路token支持，自动清理会话痕迹。
 
 与ChatGPT接口完全兼容。
 
@@ -97,7 +97,7 @@ https://udify.app/chat/Po0F6BMJ15q5vu2P
 
 ![长文档解读](./doc/example-5.png)
 
-### 图像解析Demo
+### 图像OCR Demo
 
 ![图像解析](./doc/example-3.png)
 
@@ -386,7 +386,7 @@ Authorization: Bearer [refresh_token]
 }
 ```
 
-### 图像解析
+### 图像OCR
 
 提供一个可访问的图像URL或者BASE64_URL进行解析。
 
